@@ -15,7 +15,7 @@ TMenu.addEventListener("click", e => {
                 <a href="PortfolioWebsite.html">
                     <section class="menuItem">
                         <img src="Pictures/Large/Code.png" alt"Code" class"link">
-                        <h3>Portfolio website</h3>
+                        <h3>Portfolio Website</h3>
                     </section>
                 </a>
                 <a href="Parasitr.html">
