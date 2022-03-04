@@ -33,7 +33,7 @@ TMenu.addEventListener("click", e => {
             </div>
             <section id="physical"> <h1>Physical ></h1> </section>
             <div class="physicalContent">
-                <a href="ArtdecoClock.html">
+                <a href="ArtDecoClock.html">
                     <section class="menuItem">
                         <img src="Pictures/Large/ArtDecoClock.jpg" alt"Artdeco clock" class"link">
                         <h3>Art deco clock</h3>
