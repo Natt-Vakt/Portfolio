@@ -1,0 +1,129 @@
+$primary: #2f2f2f
+$secondary: #646464
+    
+body 
+   background-color: #000000
+   margin: 0
+   padding: 0
+   color: #ffffff
+   font-family: Helvetica, Arial, sans-serif
+
+   a
+    color: #ffffff
+    text-decoration: none
+
+   aside
+       background-color: $primary
+       width: 40px
+       height: 100vh
+       position: fixed
+       top: 0
+       
+       #hamburger
+           margin-left: 2.5px
+           height: 35px
+
+       section
+           margin-left: 40px
+
+           nav
+               background-color: $secondary
+               width: 200px
+               height: 100vh
+               position: fixed
+
+               #logo
+                   width: 100%
+                   height: 200px
+                   object-fit: cover
+
+               section
+                   width: 100%
+                   height: 50px
+                   margin-left: 0
+
+                   h1
+                       font-size: 40px
+                       margin: 0
+                       float: right
+
+               div
+                    background-color: $secondary
+                    width: 640px
+                    height: 100vh
+                    position: fixed
+                    margin-left: 200px
+                    top: 0
+                    display: none
+                    padding-top: 40px
+                    flex-flow: row wrap
+                    align-content: flex-start
+
+                    section.menuItem
+                        width: 200px
+                        height: 100px
+                        border-radius: 10px
+                        margin-left: 10px
+                        margin-top: 10px
+
+                        img
+                            height: 100%
+                            width: 100%
+                            object-fit: cover
+                            border-radius: 10px
+
+                        h3
+                            text-align: center
+                            margin: 0
+                            margin-top: -40px
+
+               #digital:hover ~ .digitalContent
+                   display: flex
+
+               .digitalContent:hover
+                   display: flex
+
+               #physical:hover ~ .physicalContent
+                   display: flex
+
+               .physicalContent:hover
+                   display: flex
+
+                       
+
+   main
+       padding-top: 20px
+       padding-left: 60px
+
+       article
+            background-color: $primary
+            width: calc(100vw - 80px)
+            min-height: calc(100vh - 40px)
+            border-radius: 20px
+
+            img
+                width: 100%
+                height: 250px
+                object-fit: cover
+                border-radius: 20px 20px 0 0
+                position: relative
+                z-index: 0
+
+            header
+                height: 50px
+                background-image: linear-gradient(90deg,#00000080, #00000000)
+                margin-top: -53px
+                padding-top: 0px
+                position: relative
+                z-index: 0
+
+                h1
+                    margin: 0
+                    margin-left: 20px
+                    font-size: 40px
+
+            h2
+                margin: 0
+                margin-top: 20px
+                margin-left: 20px
+                margin-right: 20px
