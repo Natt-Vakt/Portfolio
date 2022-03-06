@@ -88,11 +88,11 @@ body aside section nav .physicalContent:hover {
 }
 body main {
   padding-top: 20px;
-  padding-left: 60px;
+  padding-left: 15vw;
 }
 body main article {
   background-color: #2f2f2f;
-  width: calc(100vw - 80px);
+  width: 70vw;
   min-height: calc(100vh - 40px);
   border-radius: 20px;
 }
